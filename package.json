@@ -36,7 +36,7 @@
     "picomatch": "^4.0.4",
     "protobufjs": "^7.5.6",
     "path-to-regexp": "^8.4.0",
-    "follow-redirects": "^1.16.0",
+    "follow-redirects": "^1.16.1",
     "brace-expansion": "^5.0.8",
     "browserslist": "^4.28.7",
     "postcss": "^8.5.10",
@@ -44,7 +44,8 @@
     "yaml": "^2.8.3",
     "uuid": "^14.0.0",
     "esbuild": "^0.28.1",
-    "@grpc/grpc-js": "^1.14.4"
+    "@grpc/grpc-js": "^1.14.4",
+    "source-map-js": "^1.2.2"
   },
   "scripts": {
     "build": "turbo run build",
@@ -67,10 +68,10 @@
     "@eslint/js": "10.0.1",
     "@turbo/gen": "2.11.5",
     "@types/yargs": "17.0.35",
-    "@vitest/coverage-v8": "4.1.11",
+    "@vitest/coverage-v8": "4.1.12",
     "@vitest/eslint-plugin": "1.6.27",
-    "@vitest/runner": "4.1.11",
-    "@vitest/ui": "4.1.11",
+    "@vitest/runner": "4.1.12",
+    "@vitest/ui": "4.1.12",
     "D": "1.0.0",
     "eslint": "10.11.0",
     "eslint-config-prettier": "10.1.8",
@@ -82,7 +83,7 @@
     "typedoc-plugin-markdown": "4.13.1",
     "typescript": "6.0.3",
     "typescript-eslint": "8.71.0",
-    "vitest": "4.1.11"
+    "vitest": "4.1.12"
   },
   "name": "midnight-faucet",
   "packageManager": "yarn@4.18.1+sha512.b2e1e7524f654f2749d32b4ebcb4622473cb5bcbc485df2007e12a154e50162a4d795526768bc5f5b8f81717bfd79deb2472813d86fb5ae2eb551fa9c872b08f",
